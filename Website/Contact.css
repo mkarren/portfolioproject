@@ -1,0 +1,185 @@
+    @import url("https://use.typekit.net/asm6ukp.css");
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Space+Mono&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* This code styles the navigation bar */
+
+li a {
+    font-family: coolvetica, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10%;
+    background: #262853;
+}
+
+.logo{
+    cursor: pointer;
+    height: 100px;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+    color: white;
+}
+
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover{
+    color: #FFC600
+}
+
+
+
+/* This is the contact section of the website */
+
+#justknock1{
+    background-image: url(Images/untitled-4.png);
+    background-size: cover;
+    min-height: 400px;
+    margin: 30px;
+}
+
+.justknock2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    min-height: 400px;
+    font-family: coolvetica, sans-serif;
+    font-size: 28;
+    color: black;
+}
+
+.bwportrait{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/* This code styles the social media icons */
+
+.social{
+    height:150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    justify-content: space-between;
+    padding: 0 20;
+}
+
+.email{
+    color: black;
+    height: 80px;
+    width: 80px;
+    transition: color 0.2s;
+}
+
+.email:hover{
+    color: #FCC600;
+    cursor: pointer;
+}
+
+.instagram{
+    color: black;
+    height: 80px;
+    width: 80px;
+    padding: 0 0 0 20;
+    transition: color 0.2s;
+}
+
+.instagram:hover{
+    color: #FCC600;
+    cursor: pointer;
+}
+
+.linkedin{
+    color: black;
+    height: 80px;
+    width: 80px;
+    transition: color 0.2s;
+}
+
+.linkedin:hover{
+    color: #FCC600;
+    cursor: pointer;
+}
+
+
+.social_text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+    min-width: 500px
+    justify-content: space-between;
+    padding: 0 20 50 20;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* This code styles the footer */
+
+footer{
+    background-color: #262853;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10;
+    text-align: center;
+    height: 300px;
+}
+
+.foot_illustration{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 100px;
+    width: auto;
+    position: relative;
+    top: 60;
+}
+
+footer p{
+    position: relative;
+    top: 100px;
+}
+
+footer li {
+    padding: 0px 20px;
+    color: white;
+    position: relative;
+    top: 70;
+    display:inline-block;
+}
+
+footer li {
+    transition: all 0.3s ease 0s;
+}
+
+footer li :hover{
+    color: #FFC600;
+}
