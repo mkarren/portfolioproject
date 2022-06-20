@@ -1,0 +1,333 @@
+    @import url("https://use.typekit.net/asm6ukp.css");
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Space+Mono&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* This code styles the navigation bar */
+
+
+li a {
+    font-family: coolvetica, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10%;
+    background: #262853;
+}
+
+.logo{
+    cursor: pointer;
+    height: 100px;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+    color: white;
+}
+
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover{
+    color: #FFC600
+}
+
+
+/* This code styles the top banner in the landing page */
+
+
+.Title{
+    height: 600px;
+    background-image: linear-gradient(to right,rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url(Images/EquipmentDesk/Screenshot%202022-05-22%20193151.jpg);
+    background-repeat: no-repeat;
+    background-position: 0;
+    background-size: 100%;
+    min-width: 1000px;
+    
+}
+
+.Title h1{
+    font-family: coolvetica, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 90px;
+    line-height: 83%;
+    color: ;
+    padding: 100px 700px 0px 60px;
+    -webkit-text-stroke: 1px white;
+}
+
+.Title p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 83%;
+    padding: 30px 700px 20px 100px;
+    max-width: 1000px;
+    -webkit-text-stroke: 0px;
+    
+}
+
+
+/* This code styles the first container for the introduction */
+
+
+.Introduction{
+    display: inline-block;
+    height: auto;
+    padding: 30 0 0 0;
+    background-color: rgba(255, 198, 0, 0.22);
+}
+
+.Introduction h3{
+    font-family: 'Open Sans', sans-serif;
+    color: #FFC600;
+    font-size: 36px;
+    line-height: 30px;
+    padding: 75px 0px 10px 100px;
+}
+
+.Introduction p{
+    font-family: 'Open Sans', sans-serif;
+    text-align: right;
+    color: black;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 10px 75px 50px 100px;
+    min-width: 300px
+}
+
+
+.brief_text{
+    padding: 0 40 0 0;
+    min-width: 300;
+}
+
+.buas_logo{
+    justify-content: center;
+}
+
+.screenshot{
+    margin-left: 2%;
+    float: left;
+    width: 500;
+    height: 150;
+    padding: 0 50 0 30;
+}
+
+
+
+/* This code styles the wireframing container */
+
+
+.userflow{
+    background-color: #EEEEEE;
+}
+
+.userflow_header{
+    font-family: 'coolvetica', sans-serif;
+    font-size: 30;
+    padding: 50 50 10 150;
+}
+
+.userflow_imgs{
+    display: flex;
+    justify-content: center;
+}
+
+.userflow1{
+    width: 100%;
+    padding: 25;
+     
+}
+
+
+
+/* This code styles the container for the Final Deliverables */
+
+.final_title{
+    padding: 50 50 0 150;
+    font-family: 'coolvetica', sans-serif;
+    font-size: 30;
+}
+
+.final_spread{
+    padding: 50 0 50 0;
+    display: flex;
+    justify-content: center;
+}
+
+.final_spread img{
+    width: 80%
+    
+}
+
+.final_others{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.final_others img{
+    padding: 10;
+    width: 25%
+    
+}
+
+.protot_link{
+    display: flex;
+    justify-content: center;
+    font-family: coolvetica, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 130%;
+    color: ;
+    padding: 50 150;
+}
+
+
+
+/* This code styles the container for skills */
+
+
+.skills_title{
+    font-family: 'coolvetica', sans-serif;
+    font-size: 30px;
+    padding: 50 150;
+    background-color: rgba(255, 198, 0, 0.22); 
+}
+
+.skills{
+    background-color: rgba(255, 198, 0, 0.22);
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+    padding: 10 50 50 50;
+}
+
+.column{
+    width: 50%;
+    text-align: center
+}
+
+.column img{
+    width: 30%
+}
+
+.column p{
+    padding: 10 50;
+}
+
+
+/* This code styles the CTA container */
+
+
+.cta{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.cta .column_left{
+    padding: 30 10 30 50;
+}
+
+.cta .column_right{
+    padding: 0 50 30 10;
+}
+
+.cta .column_left img{
+    width: 300px;
+}
+
+.cta .column_right h3{
+    font-family: 'coolvetica', sans-serif;
+    font-size: 60;
+    text-align: left;
+    max-width: 400px;
+    line-height: 83%;
+}
+
+.ctabutton{
+    background-color: #FFC600;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    border-radius: 12px;
+    min-width: 199px;
+    margin: 15 0;
+}
+
+.ctabutton:hover{
+    background-color: #D4A400;
+    color: white;
+    cursor: pointer;
+}
+
+
+/* This code styles the footer */
+
+
+footer{
+    background-color: #262853;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10;
+    text-align: center;
+    height: 300px;
+}
+
+.foot_illustration{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 100px;
+    width: auto;
+    position: relative;
+    top: 60;
+}
+
+footer p{
+    position: relative;
+    top: 100px;
+}
+
+footer li {
+    padding: 0px 20px;
+    color: white;
+    position: relative;
+    top: 70;
+    display:inline-block;
+}
+
+footer li {
+    transition: all 0.3s ease 0s;
+}
+
+footer li :hover{
+    color: #FFC600;
+}
+
+
+

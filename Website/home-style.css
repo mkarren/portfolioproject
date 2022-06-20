@@ -1,0 +1,408 @@
+    @import url("https://use.typekit.net/asm6ukp.css");
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Space+Mono&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* This code styles the navigation bar */
+
+li a {
+    font-family: coolvetica, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10%;
+    background: #262853;
+}
+
+.logo{
+    cursor: pointer;
+    height: 100px;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+    color: white;
+}
+
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover{
+    color: #FFC600
+}
+
+
+/* This code styles the top banner in the landing page */
+
+.Title{
+    height: 600px;
+    background-image: url(Images/Self-Portrait2.png);
+    background-repeat: no-repeat;
+    background-position: 150;
+    background-size: 100%;
+}
+
+.Title h1{
+    font-family: coolvetica, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 144px;
+    line-height: 83%;
+    color: ;
+    padding: 100px 400px 0px 60px;
+    -webkit-text-stroke: 1px white;
+}
+
+.Title h6{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 48px;
+    line-height: 83%;
+    padding: 0px 800px 20px 60px;
+    -webkit-text-stroke: 0px;
+}
+
+/* This code styles the first to CTA buttons */
+
+.mywork{
+    position: relative;
+    left: 50px;
+    background-color: #FFC600;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    margin: 10px;
+    margin-top: 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    border-radius: 12px;
+    min-width: 170px;
+}
+
+.mywork:hover{
+    background-color: #D4A400;
+    color: white;
+    cursor: pointer;
+}
+
+.getintouch{
+    position: relative;
+    left: 60px;
+    background-color: #FFC600;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    border-radius: 12px;
+    min-width: 199px;
+}
+
+.getintouch:hover{
+    background-color: #D4A400;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+/* This code styles the first container for the introduction */
+
+.Introduction{
+    background-color: #EEEEEE;
+    display: inline-block;
+    height: auto;
+    padding: 1%;
+}
+
+.Introduction h3{
+    font-family: 'Open Sans', sans-serif;
+    color: #FFC600;
+    font-size: 36px;
+    line-height: 30px;
+    padding: 75px 30px 10px 100px;
+}
+
+.Introduction p{
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 10px 75px 50px 100px;
+    min-width: 300px
+}
+
+.swamp{
+    margin-left: 2%;
+    float: left;
+    height: 500;
+    padding: 0px 0px 0px 0px;
+}
+
+
+/* This code styles the second container with the Sunglasses illustration */
+
+#sunglasses{
+    min-height: 300px;
+}
+
+.sunglasses{
+    width: 100%;
+    min-width: 900px;
+    padding: 20px 20px;
+}
+
+
+/* This code is for the portfolio section of the website*/
+
+.portfolio_title{
+    height: 200px;
+    width: 100%;
+    font-family: coolvetica, sans-serif;
+    font-weight: 300;
+    font-style: normal; 
+    font-size: 48px;
+    background-image:url(Images/Syafron%20Graphic.png);
+}
+
+.portfolio_title h2{
+    padding: 30px 100px;
+    line-height: 83%;
+}
+
+/* This code styles all of the clickable menu items in the portfolio section */
+
+#portfolio_items h3{
+    font-family: coolvetica, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    color: white;
+    padding: 10px 250px 0px 50px;
+}
+
+#portfolio_items button{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18;
+    color: white;
+    background-color: #FCC600;
+    padding: 10px 32px;
+    position: relative;
+    left: 50px;
+    border: none;
+    border-radius: 12px;
+    margin: 10px 0px ;
+}
+
+#portfolio_items .greyed{
+    background-color: gray;
+    color:black;
+}
+
+#portfolio_items button:hover{
+    background-color: #D4A400;
+    color: white;
+    cursor: pointer;
+}
+
+#portfolio_items .greyed:hover{
+    background-color: gray;
+    color:black;
+}
+
+.pitem1 {
+    background-image: linear-gradient(to right,#262853,rgba(0,0,0,0)), url('Images/BeingThereBanner.png');
+    background-color: #262853;
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 10px 10% 20px 90px;
+}
+
+.pitem2 {
+    background-image:linear-gradient(to right,#262853,rgba(0,0,0,0)), url('Images/BUas100daysBanner.png');
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px 10% 20px 90px;
+}
+
+.pitem3 {
+    background-image:linear-gradient(to right,#262853,rgba(0,0,0,0)), url('Images/EquipmentDesk/Screenshot%202022-05-22%20193151.jpg');
+    background-color: #262853;
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px 10% 20px 90px;
+}
+
+.pitem4 {
+    background-image:linear-gradient(to right,#262853,rgba(0,0,0,0)), url('Images/TahuWilderBanner.png');
+    background-color: #262853;
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px 10% 20px 90px;
+}
+
+.pitem5 {
+    background-image:linear-gradient(to right,#262853,rgba(0,0,0,0)), url('Images/YukiBanner.png');
+    background-color: #262853;
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px 10% 90px 90px;
+}
+
+
+/* This is the contact section of the website */
+
+#justknock1{
+    background-image: url(Images/untitled-4.png);
+    background-size: cover;
+    min-height: 400px;
+    margin: 30px;
+}
+
+.justknock2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    min-height: 400px;
+    font-family: coolvetica, sans-serif;
+    font-size: 28;
+    color: black;
+}
+
+.bwportrait{
+    width: 300px;
+    height: auto;
+}
+
+/* This code styles the social media icons */
+
+.social{
+    height:150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    justify-content: space-between;
+    padding: 0 20;
+}
+
+.email{
+    color: black;
+    height: 80px;
+    width: 80px;
+    transition: color 0.2s;
+}
+
+.email:hover{
+    color: #FCC600;
+    cursor: pointer;
+}
+
+.instagram{
+    color: black;
+    height: 80px;
+    width: 80px;
+    padding: 0 0 0 20;
+    transition: color 0.2s;
+}
+
+.instagram:hover{
+    color: #FCC600;
+    cursor: pointer;
+}
+
+.linkedin{
+    color: black;
+    height: 80px;
+    width: 80px;
+    transition: color 0.2s;
+}
+
+.linkedin:hover{
+    color: #FCC600;
+    cursor: pointer;
+}
+
+
+.social_text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+    justify-content: space-between;
+    padding: 0 20 50 20;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* This code styles the footer */
+
+footer{
+    background-color: #262853;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10;
+    text-align: center;
+    height: 300px;
+}
+
+.foot_illustration{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 100px;
+    width: auto;
+    position: relative;
+    top: 60;
+}
+
+footer p{
+    position: relative;
+    top: 100px;
+}
+
+footer li {
+    padding: 0px 20px;
+    color: white;
+    position: relative;
+    top: 70;
+    display:inline-block;
+}
+
+footer li {
+    transition: all 0.3s ease 0s;
+}
+
+footer li :hover{
+    color: #FFC600;
+}
